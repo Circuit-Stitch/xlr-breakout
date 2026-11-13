@@ -272,6 +272,17 @@
 				(checksum "4257CE95A2C58FCE3A2F013AD1A6297F")
 			)
 		)
+		(model "${KIPRJMOD}/../lib/3d/REAN_RRX3M-AA-003.step"
+			(offset
+				(xyz 0 0 24)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 		(layer "B.Cu")

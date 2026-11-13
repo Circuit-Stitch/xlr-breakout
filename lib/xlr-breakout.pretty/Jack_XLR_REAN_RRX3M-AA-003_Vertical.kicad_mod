@@ -168,6 +168,17 @@
 		(remove_unused_layers no)
 		(uuid "58b91be7-eb46-4ff8-8ad1-d3f69c831ad7")
 	)
+	(model "${KIPRJMOD}/../lib/3d/REAN_RRX3M-AA-003.step"
+		(offset
+			(xyz 0 0 24)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(embedded_fonts no)
 	(embedded_files
 		(file

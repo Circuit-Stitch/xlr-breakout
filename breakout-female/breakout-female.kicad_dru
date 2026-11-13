@@ -1,0 +1,10 @@
+(version 1)
+
+# Board setup sets copper-to-edge at 0.25 mm. This rule keeps 0.5 mm for everything else.
+(rule "Copper to edge"
+        (constraint edge_clearance (min 0.5mm)))
+
+# The RCJ9FA-V switch pads sit 0.25 mm from the jack's center cutout, per the REAN drawing.
+(rule "RCJ9FA-V pads to center cutout"
+        (constraint edge_clearance (min 0.25mm))
+        (condition "A.Type == 'Pad' && A.memberOfFootprint('xlr-breakout:REAN  RCJ9FA-V')"))

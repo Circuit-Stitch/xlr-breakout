@@ -97,7 +97,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fd92297c-b364-467e-a105-88ed536d5007")
+			(uuid "3b8ae779-bbd9-4945-953c-62abdf79a5fe")
 			(effects
 				(font
 					(size 1 1)
@@ -109,7 +109,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2dcb5428-37b2-4136-b0f5-262a743b590b")
+			(uuid "69294af0-4417-4114-9c64-fe7ce871a575")
 			(effects
 				(font
 					(size 1 1)
@@ -122,7 +122,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc8911df-4f0e-496b-a961-f0af785ad0bf")
+			(uuid "0199a14b-6293-4d7c-a3fb-c82991e83c10")
 			(effects
 				(font
 					(size 1 1)
@@ -135,7 +135,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94388481-bd0d-4958-8c45-20381894a857")
+			(uuid "6a986b4e-e863-47db-b0cd-ca24bb947f7f")
 			(effects
 				(font
 					(size 1 1)
@@ -1852,6 +1852,18 @@
 				(thickness 0.15)
 			)
 			(justify right mirror)
+		)
+	)
+	(gr_text "Use REAN P/N RCJ9FA-V"
+		(at 42.67 93.54643 270)
+		(layer "B.SilkS")
+		(uuid "84c0a577-f187-4a42-90fe-b20e08688a6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

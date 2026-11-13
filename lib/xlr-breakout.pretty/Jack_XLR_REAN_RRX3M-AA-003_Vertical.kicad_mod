@@ -1,7 +1,7 @@
 (footprint "Jack_XLR_REAN_RRX3M-AA-003_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "AA series 3 pole male XLR receptacle, vertical PCB mount. Ground contact G goes to the shell, not to the front panel or pin 1. Origin is the connector axis. Drawing RRX3M-AA-003 rev A.")
 	(tags "rean neutrik xlr male aa vertical")
@@ -9,7 +9,7 @@
 		(at 0 -11.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "58e3225c-3a7b-45ee-8683-2fe228faff3b")
+		(uuid "90ce2d39-0be3-447f-a90f-a447a831333b")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -21,7 +21,7 @@
 		(at 0 16.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1ce069c5-c763-48bf-9047-628d4891f63e")
+		(uuid "db4f6cf7-f916-4d39-b56f-b5c9f3d7482f")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "96402159-8e08-4acf-aa1e-69aa5ddfcc1c")
+		(uuid "de7cfe16-114c-4378-8e1b-a57a725b6773")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4dbce0d1-0f5f-4058-8ea4-21af071eb1db")
+		(uuid "188bfb9d-6cab-4d86-858c-f89c67d283e1")
 		(effects
 			(font
 				(size 1 1)
@@ -56,6 +56,18 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -13.05 -13.05)
+		(end 12.75 15.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9eaadcc2-c595-4274-88b0-1438e58c7567")
+	)
 	(fp_rect
 		(start -12.8 -12.8)
 		(end 12.5 12.5)
@@ -65,40 +77,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "687dfd12-80f4-44cd-a29a-c22b12ea0a40")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 11 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "9632a0f8-0145-4692-bb67-a1809a8d328f")
-	)
-	(fp_circle
-		(center -9.9 -9.9)
-		(end -8.3 -9.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "2f421ad8-3a72-4650-af85-0f17f7cdf3a3")
-	)
-	(fp_circle
-		(center 9.9 9.9)
-		(end 11.5 9.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "06f50e27-2b96-4ca2-b826-82fd78b8645d")
+		(uuid "9d8ede5d-6502-4a67-9f1f-b440941505f8")
 	)
 	(fp_rect
 		(start -7 12.5)
@@ -109,13 +88,46 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "943b772d-0eef-4103-b7d6-6ed7ed924403")
+		(uuid "8940946b-1429-4305-9d30-92d7ae88ae0c")
+	)
+	(fp_circle
+		(center -9.9 -9.9)
+		(end -8.3 -9.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7885a5ad-2e51-4001-b898-b99a7a57572e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4286cc6b-1d99-467f-ad16-fd2be3217c9f")
+	)
+	(fp_circle
+		(center 9.9 9.9)
+		(end 11.5 9.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e2227dd3-4a05-46a2-ac5b-3de0b2709b4e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b78c6fcc-7adf-4e91-a9ab-d3f961575034")
+		(uuid "3245c187-4c0e-486b-800f-9ca72e4f9db0")
 		(effects
 			(font
 				(size 1 1)
@@ -123,36 +135,14 @@
 			)
 		)
 	)
-	(fp_rect
-		(start -12.9 -12.9)
-		(end 12.6 12.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "a68b8311-1c75-4d98-828e-84ac8817a0f4")
-	)
-	(fp_rect
-		(start -13.05 -13.05)
-		(end 12.75 15.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "05aacfad-d849-43ee-881b-1a0a5d05a719")
-	)
 	(pad "1" thru_hole roundrect
 		(at -3.81 0)
 		(size 2.8 2.8)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
-		(roundrect_rratio 0.25)
 		(remove_unused_layers no)
-		(uuid "1ae16ef6-ceb0-48dc-bd0b-6ead5e114ed2")
+		(roundrect_rratio 0.25)
+		(uuid "999b9ad4-940c-4f4f-a5eb-a9de5848d8fa")
 	)
 	(pad "2" thru_hole circle
 		(at 3.81 0)
@@ -160,7 +150,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f1944f3c-6b45-4ccd-8972-40c5eff3f82b")
+		(uuid "8a6e7a3b-ad08-4b28-b6b2-4c1b03f86df5")
 	)
 	(pad "3" thru_hole circle
 		(at 0 3.81)
@@ -168,7 +158,7 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "75104995-d47e-4516-9de7-9e8c392e60a2")
+		(uuid "9ec34931-e765-4743-9318-2e211621c4a6")
 	)
 	(pad "G" thru_hole circle
 		(at 0 8.25)
@@ -176,7 +166,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8972fc24-cc1a-4c94-b520-6e3cf8a5bd75")
+		(uuid "58b91be7-eb46-4ff8-8ad1-d3f69c831ad7")
 	)
 	(embedded_fonts no)
 	(embedded_files
@@ -1159,7 +1149,8 @@
 				teLMmkS7bVljiZt8fRv5J6QbwnHWdg4vXRxyZmTS8iR8u/DMerOJ9vWSugfhHQjX+kB4MEu3Spxs
 				JmBHE0/4m/NZVMSkJECqJ44EBG1lIAksZ4d/4p6DL35owGCp4iASUjHVMoZIL2AIKCrLdn7xuFFR
 				74peAa9FMVhnYtC6H2Zlqf4MeKHPBnKHCRhYZ6xH8uO4WQoQgaPl8oeKNgWQYELHEzba9x4qW0HI
-				1GRF1APZQ70KKVBHPovMna7aFhEDtM+YWt1sHuDOmRAVShomTW0sA/KhyMPdJiGEsl5dsQc=|)
+				1GRF1APZQ70KKVBHPovMna7aFhEDtM+YWt1sHuDOmRAVShomTW0sA/KhyMPdJiGEsl5dsQc=|
+			)
 			(checksum "4257CE95A2C58FCE3A2F013AD1A6297F")
 		)
 	)
